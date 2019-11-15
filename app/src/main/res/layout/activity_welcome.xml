@@ -10,7 +10,16 @@
         android:id="@+id/Welcome"
         android:layout_width="273dp"
         android:layout_height="103dp"
-        android:text="Welcome"
+        android:text="Welcome selamat beraktivitas"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="logout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="331dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
